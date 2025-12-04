@@ -1,0 +1,17 @@
+# Serveur FastAPI
+fastapi==0.111.1
+uvicorn[standard]==0.23.2
+jinja2==3.1.2
+
+# Détection PCB
+ultralytics==8.0.156
+
+# PyTorch CPU léger
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.0+cpu
+
+# Versions compatibles
+numpy==1.26.4
+pillow==10.1.0
+opencv-python-headless==4.8.1.78  # plus léger que opencv-python
+
