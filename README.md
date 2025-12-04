@@ -14,5 +14,3 @@ Le projet inclut un Dockerfile pour un déploiement simple et reproductible.
 - API légère et rapide basée sur FastAPI.
 - Déploiement conteneurisé avec Docker.
 
-
-
