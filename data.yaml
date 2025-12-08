@@ -1,0 +1,16 @@
+path: ./dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: missing_component
+  1: wrong_orientation
+  2: cold_solder
+  3: short_circuit
+  4: broken_track
+  5: burn_mark
+  6: misaligned_component
+  7: extra_solder
+

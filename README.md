@@ -14,3 +14,13 @@ Le projet inclut un Dockerfile pour un déploiement simple et reproductible.
 - API légère et rapide basée sur FastAPI.
 - Déploiement conteneurisé avec Docker.
 
+
+## 📂 Structure du projet
+PCBDefectDetector/
+├── Dockerfile
+├── main.py # Application FastAPI
+├── pcb_detector.py # Classe PCBDefectDetector et fonctions YOLO
+├── requirements.txt # Dépendances Python
+├── README.md
+└── templates/
+└── index.html # Interface web
